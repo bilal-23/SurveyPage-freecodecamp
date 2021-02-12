@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+    font-family: 'Lexend Mega';
+    
+}
+.container{
+    min-height: 100vh;
+    text-align: center;
+    padding: 3rem 2rem;
+    /* border: 2px solid red; */
+    background: linear-gradient(to right top, #65dfc9, #0b191bc9);
+    
+}
+.title{
+    font-size: 2rem;
+    font-family: 'Lexend Mega';
+    padding: 1rem 3rem;
+    color: whitesmoke;
+    letter-spacing: 1rem;
+}
+.description{
+    font-family: 'Lexend Mega';
+    font-style: italic;
+    padding-bottom: 2rem;
+    color: whitesmoke;
+}
+.background{
+    /* border: 2px solid red; */
+    background: linear-gradient(to right top, #0f5f50, #532222c9);
+    color: white;
+    font-family: 'Lexend Mega';
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem;
+    backdrop-filter: blur(2rem);
+    opacity: 0.9;
+    border-radius: 1rem;
+}
+.form-group{
+    padding: 1rem;
+    margin: 0 auto 1.25rem auto;
+}
+label{
+    display: block;
+    text-align: left;
+    margin: 0.5rem;
+}
+input[type='text'],
+input[type='email'],
+input[type='number']{
+    display: block;
+    width: 90%;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    margin: 5px 0px;
+}
+select{
+    font-size: 1rem;
+    width: 90%;
+    height: 3rem;
+    border-radius: 1rem;
+    display: block;
+
+}
+option{
+    font-size: 1rem;
+}
+.time, .emotions{
+    text-align: left;
+}
+input[type='radio'],
+input[type='checkbox']{
+    display: inline-block;
+    align-self: flex-start;
+    margin: 0.6rem;
+}
+.time label,
+.emotions label{
+    display: inline;
+    margin: 0.6rem;
+}
+textarea{
+    width: 90%;
+    display: block;
+}
+
+#submit{
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    padding: 1rem 2rem;
+    display: block;
+    border-radius: 2rem;
+    background-color: #37af65;
+    width: 90%  ;
+    border-color: transparent;
+    
+}
+
+@media only screen and (max-width:425px){
+    
+    .container{
+        padding: 1rem;
+    }
+    .title{
+        font-size:1.5rem;
+        letter-spacing: 0rem;
+        padding: 2rem 0rem;
+    }
+.description{
+font-size: 0.9rem;
+}
+.background{
+    width: 90%;
+    padding: 1rem 0rem;
+}
+.form-group{
+    padding: 1rem 0.5rem;
+}
+label{
+    display: block;
+    text-align: left;
+    margin: 0.5rem;
+    font-size: 0.8rem;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='number']{
+    padding: 1rem 1rem;
+    font-size: 0.8rem;
+}
+
+select{
+    font-size: 0.8rem;
+}
+
+option{
+    font-size: 0.8rem;
+}
+#submit{
+    font-size: 1rem;
+}
+}
+@media only screen and (max-width:768px){
+    .background{
+        width: 90%;
+        padding: 1rem 0rem;
+    }
+
+}
